@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Page Title</title>
+<link href="H:\9raya...js\week1 html&css&js\formulaire\styles\form.css" rel="stylesheet">
+</head>
+<body style="background-image: url(images/orange.jpg)" >
+<h1>Formulaire d'inscription</h1>
+<form action="valider.html" method="post" >
+	<strong>Entrer votre nom:</strong>
+	<br>
+	<input type="text" placeholder="entrer votre nom" minlength="2" required>
+<br>
+	<strong>entrer votre prenom :</strong>
+	<br>
+	<input type="text" placeholder="entrer votre prenom" required>
+<br>
+	<strong>Entrer votre numéro de telephone:</strong>
+	<br>
+	<input type="text" placeholder="votre numero de tel" >
+<br>
+	<strong>saisie votre email:</strong>
+	<br>
+	<input type="email" name="email" placeholder="example@gmail.com" required>
+<br>
+	<strong>Entrer un User name:</strong>
+	<br>
+	<input type="text" placeholder="user name" required>
+<br>
+<strong>	Entrer votre mot de pass:</strong>
+	<br>
+	<input type="password" minlength="8" placeholder="you can't see me" required>
+<br>
+<strong>	Votre date de naissance:</strong>
+	<br>
+  <input type="date" name="bday" max="2005-10-11">
+  <br>
+
+  <strong> Choose your field of expertise:<br></strong>
+ 
+  <input type="radio" id="tech" name="field" value="tech">
+  <label for="tech" >Technology</label>
+  <br>
+ 
+  <input type="radio" id="bio" name="field" value="bio">
+  <label for="bio">Biology</label>
+  <br>
+ 
+  <input type="radio" id="architecture" name="field" value="architecture">
+  <label for="architecture">Architecture</label>
+  <br>
+ 
+  <input type="radio" id="education" name="field" value="education">
+  <label for="education">Education</label>
+  <br>
+  	<strong>votre activité preferes:</strong>
+  	<br>
+   <input type="checkbox" name="act1" value="sport"> Sport <br>
+  <input type="checkbox" name="act2" value="music"> music <br>
+  <input type="checkbox" name="act3" value="lecture"> lecture <br><br>
+ <input type="submit" value="valider" onclick=""> 
+ <input type="reset">
+</form>
+</body>
+</html>
